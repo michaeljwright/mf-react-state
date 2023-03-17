@@ -1,5 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "remote1": "apps/remote1",
+    "remote1-e2e": "apps/remote1-e2e",
+    "remote2": "apps/remote2",
+    "remote2-e2e": "apps/remote2-e2e",
+    "shared-data-context": "libs/shared/data-context",
+    "shell": "apps/shell",
+    "shell-e2e": "apps/shell-e2e"
+  }
 }
